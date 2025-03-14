@@ -1,0 +1,272 @@
+@font-face {
+    font-family: Poppins;
+    src: url(./font/Poppins-Medium.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    user-select: none;
+}
+.container{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: 100%;
+}
+
+input,
+button {
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+hr{
+    margin-top: 100px;
+}
+header{
+    background: #0B0B0B;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.navbar{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar__collection{
+    display: flex;
+    gap: 30px;
+    color: white;
+    transition: 1s;
+}
+.navbar__collection li:hover{
+    color: #8B8E99;
+}
+.navbar__icon{
+    cursor: pointer;
+    display: flex;
+    gap: 15px;
+}
+.navbar__menu{
+    display: none;
+}
+.img__mohid{
+    display: none;
+}
+.watch{
+    background: #0B0B0B;
+    width: 100%;
+    height: 700px;
+}
+.watch__wrapper{
+    padding-top: 70px;
+    display: flex;
+    gap: 230px;
+    align-items: center;
+}
+.watch__context,
+.watch__img{
+    width: 50%;
+    align-items: center;
+}
+.watch__context p{
+    color: #8B8E99;
+    width: 410px;
+    padding: 20px 0 50px 0;
+    
+}
+.watch__context h2{
+    color: #fff;
+    font-size: 64px;
+}
+.watch__search{
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 8px;
+    padding: 10px;
+    width: 440px;
+    height: 60px;
+}
+.watch__search input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    flex: 1;
+    padding: 10px;
+    border-radius: 30px;
+}
+.watch__search button {
+    background: #3b59ff;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.apple__wrapper{
+    display: flex;
+    gap: 20px;
+    margin-top: 70px;
+}
+.apple__card{
+    width: 350px;
+    height: 240px;
+    border: 1px solid #F6F6F6;
+    background: #F6F6F6;
+    border-radius: 22px;
+}
+.apple__card{
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+.apple__context h2{
+    font-size: 36px;
+    margin-left: -20px;
+}
+.apple__context p{
+    width: 170px;
+    color: #8B8E99;
+    margin-left: -20px;
+}
+.apple__img,
+.apple__context{
+    width: 50%;
+}
+.text,
+.text__people{
+    text-align: center;
+    margin-top: 140px;
+}
+.text,
+.text__people p{
+    color: #3858D6;
+}
+.text,
+.text__people h2{
+    font-size: 36px;
+    color: #1E1D1D;
+}
+.smart__wrapper{
+    display: flex;
+    gap: 35px;
+    margin-top: 50px;
+}
+.smart__card{
+    width: 335px;
+    height: 440px;
+    border: 1px solid white;
+}
+.smart__img img{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.smart__context{
+    text-align: center;
+    margin-top: 40px;
+}
+.smart__img{
+    width: 339px;
+    height: 320px;
+    background-color: #F6F6F6;
+}
+span{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+span p:nth-child(1){
+    text-decoration: line-through;
+    color: #8B8E99;
+}
+span p:nth-child(2){
+    font-size: 18px;
+}
+
+.smart__img:hover{
+    cursor: pointer;
+    transition: scale(1.3);
+    transition: 2s;
+}
+.people__wrapper{ 
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+.text__card{
+    width: 530px;
+    height: 230px;
+    border-radius: 22px;
+    background: #F6F6F6;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.people__context,
+.people__img{
+    width: 50%;
+}
+.people__context{
+    margin-left: -30px;
+}
+.new__card{
+    width: 100%;
+    height: 400px;
+    background: #F6F6F6;
+    margin-top: 150px;
+    border-radius: 22px;
+}
+.new__card{
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+    gap: 150px;
+}
+.new__img,
+.new__context{
+    width: 50%;
+}
+.new__context h2{
+    font-size: 36px;
+    padding-bottom: 5px;
+}
+.new__context p{
+    color: #8B8E99;
+    padding-bottom: 34px;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+

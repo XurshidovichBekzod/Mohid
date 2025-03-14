@@ -1,0 +1,89 @@
+@media (max-width:600px) {
+    .navbar__collection{
+        position: fixed;
+        top: 0;
+        left: -60%;
+        width: 60%;
+        height: 100vh;
+        background-color: #000000;
+        border-right: 3px solid gray;
+        flex-direction: column;
+        padding: 20px;
+        gap: 12px;
+        transition: .3s ease;
+    }
+    .navbar__collection.show{
+        left: 0;
+    }
+    .navbar__icon{
+        display: none;
+    }
+    .navbar{
+        padding: 0 20px;
+    }
+    .navbar__menu{
+        display: block;
+        border: none;
+        background: transparent;
+        font-size: 1.3rem;
+    }
+    .img__mohid{
+        display: block;
+        width: 150px;
+        position: absolute;
+        left: 10px;
+        top: 300px;
+    }
+    .watch{
+        margin-top: -70px;
+        padding: 20px;
+    }
+    .watch__context h2{
+        font-size: 60px;
+    }
+    .watch__context p{
+        font-size: 12px;
+        width: 340px;
+    }
+    .watch__img{
+        display: none;
+    }
+    .watch__search{
+        width: 340px;
+    }
+    .apple__wrapper{
+        padding: 7px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .smart__wrapper{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text h2{
+        font-size: 24px;
+    }
+    .people__wrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .text__card{
+        width: 370px;
+    }
+    .people__context {
+        margin-left: 20px;
+    }
+    .new__img{
+        display: none;
+    }
+    .new__card{
+        padding: 20px;
+    }
+
+}
+
