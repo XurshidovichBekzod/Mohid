@@ -21,6 +21,9 @@
     .navbar{
         padding: 0 20px;
     }
+    .watch__search button{
+        display: none;
+    }
     .navbar__menu{
         display: block;
         border: none;
